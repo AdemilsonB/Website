@@ -1,0 +1,12 @@
+#principal{
+    width: 100%;
+}
+
+h2{
+    font-weight: bold;
+    color: orange;
+    padding: 10px;
+    text-align: center;
+    text-shadow:rgb(83, 39, 9) 0.1em 0.1em 0.2em ;
+    font-size: 35px;
+}

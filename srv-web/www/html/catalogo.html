@@ -1,0 +1,28 @@
+
+    <link rel="stylesheet" href="css/catalogo.css">
+
+    <section>
+
+        <div class="nomepag">
+            <h1 style="font-size: 25px; text-shadow: rgb(83, 39, 9) 0.1em 0.1em 0.2em">Catálogo</h1>
+            <div class="icone">
+                <a href="/login"><img src="imagem/usuario.png" alt="login" class="img1"></a>
+                <a href="/carrinho"><img src="imagem/carrinho.png" alt="carrinho" class="img2"></a>
+            </div>
+        </div>
+
+    <div class="wrapper">
+
+         
+        <% categoria.forEach(categoria => {%>
+        <div>
+            <img src="../img/" width="150px"><br>
+                <a href="/<%= categoria.link %>" style="color: rgb(255, 111, 0);"><%= categoria.nome %></a></li>
+            </div>
+        
+        <%});%>
+
+              
+    </div>
+
+</section>
